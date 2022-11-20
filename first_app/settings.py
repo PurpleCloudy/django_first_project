@@ -142,3 +142,5 @@ MEDIA_ROOT = BASE_DIR /'staticbase'/ 'media'
 #login required redirect
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
